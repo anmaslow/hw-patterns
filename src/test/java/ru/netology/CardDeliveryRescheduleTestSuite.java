@@ -21,7 +21,7 @@ public class CardDeliveryRescheduleTestSuite {
         String firstDate = DataGenerator.SubmitFormInfo.generate("ru").getFirstDate().format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
         String secondDate = DataGenerator.SubmitFormInfo.generate("ru").getSecondDate().format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
 
-        open("http://localhost:7777");
+        open("http://localhost:9999");
 
         $$("#root .form-field").find(Condition.hidden);
         $("[data-test-id=city] input").setValue("Москва");
@@ -39,7 +39,7 @@ public class CardDeliveryRescheduleTestSuite {
 
 //      reschedule
 
-        open("http://localhost:7777");
+        open("http://localhost:9999");
 
         $$("#root .form-field").find(Condition.hidden);
         $("[data-test-id=city] input").setValue("Москва");
@@ -68,7 +68,7 @@ public class CardDeliveryRescheduleTestSuite {
         String firstDate = DataGenerator.SubmitFormInfo.generate("ru").getFirstDate().format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
         String secondDate = DataGenerator.SubmitFormInfo.generate("ru").getSecondDate().format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
 
-        open("http://localhost:7777");
+        open("http://localhost:9999");
 
         $$("#root .form-field").find(Condition.hidden);
         $("[data-test-id=city] input").setValue("Москва");
@@ -86,7 +86,7 @@ public class CardDeliveryRescheduleTestSuite {
 
 //      reschedule
 
-        open("http://localhost:7777");
+        open("http://localhost:9999");
 
         $$("#root .form-field").find(Condition.hidden);
         $("[data-test-id=city] input").setValue("Москва");
